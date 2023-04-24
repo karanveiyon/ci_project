@@ -15,7 +15,8 @@ class View extends CI_Controller {
     {
         $this->load->database();
         $this->load->model('view_model');
-        $this->load->helper('url');        
+        $this->load->helper('url');
+        $data['title'] = "View Data in DB";       
         $data['contacts']=$this->view_model->readContactData();
         $this->load->view('view',$data);
     }

@@ -12,6 +12,7 @@ include('header.php');
 <body>
     <div class="container mt-5 p-2">
     <h2 class="text-center fs-3">View Data</h2><br>
+    <h3 class="text-center fs-3"><?php echo $title; ?></h3>
     <table class="table table-secondary table-hover" id="datatable">
         <thead>
         <tr>

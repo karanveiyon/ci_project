@@ -12,7 +12,7 @@ class Index extends CI_Controller {
     {
         $this->load->view('index');
         $this->load->database();
-        $this->load->helper();
+        $this->load->helper('url');
         $this->load->model('index_model');
 
     }
