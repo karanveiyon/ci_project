@@ -11,8 +11,11 @@ include('header.php');
 
 <body>
     <div class="container mt-5 p-2">
-    <h2 class="text-center fs-3">View Data</h2><br>
-    <h3 class="text-center fs-3"><?php echo $title; ?></h3>
+    <h2 class="text-center fs-3">CRUD Page</h2><br>
+    <div class="col-md-12" style=" display:flex; flex-direction: row; align-items:center; justify-content:space-between;"> 
+       <div class=""><span class="text-center fs-3"><?php echo $title; ?></span> </div>
+       <div class=""><button class="btn btn-primary">Create Record</button></div> 
+    </div><br>
     <table class="table table-secondary table-hover" id="datatable">
         <thead>
         <tr>

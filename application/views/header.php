@@ -22,7 +22,10 @@
           <a class="nav-link active" aria-current="page" href="<?php echo base_url('index');?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url('view');?>">List</a>
+          <a class="nav-link" href="<?php echo base_url('view');?>">CRUD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">API</a>
         </li>
 
       </ul>
