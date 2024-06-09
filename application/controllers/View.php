@@ -43,7 +43,7 @@ class View extends CI_Controller {
         $data['name']= $this->input->post('name');
         $data['email']= $this->input->post('email');
         $data['phone']= $this->input->post('phone');
-        $data['id'] == null ? $this->view_model->insert($data):$this->view_model->insert_and_edit_contact_data($data['id'], $data);
+        $this->view_model->insert_and_edit_contact_data($data['id'], $data);
         redirect('view');
 
         }
